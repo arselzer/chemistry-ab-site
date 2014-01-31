@@ -1,0 +1,40 @@
+.document {
+  width: 960px;
+  min-height: 800px;
+  margin: 0 auto 0 auto;
+}
+
+.document > .title {
+  font-size: 2em;
+  display: block;
+  font-family: "Bitter";
+  text-align: center;
+}
+
+.author {
+  font-size: 1.2em;
+  font-family: "Lato";
+  display: block;
+  margin-top: 20px;
+  color: rgb(56, 56, 56);
+  text-align: center;
+}
+
+.textblock {
+  margin: 40px 0 40px 0;
+  display: block;
+}
+
+.textblock .title {
+  font-size: 1.6em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+}
+
+.textblock .text {
+  font-size: 1em;
+  font-family: "Bitter";
+  display: block;
+}
