@@ -1,0 +1,19 @@
+{
+  "name": "chemistry-ab-pH",
+  "version": "0.0.1",
+  "description": "My chemistry assignment about the impact of pH on the environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pH",
+    "chemistry",
+    "homework",
+    "assignment",
+    "environment",
+    "impact"
+  ],
+  "author": "Alexander Selzer <aselzer3@gmail.com>",
+  "license": "MIT"
+}

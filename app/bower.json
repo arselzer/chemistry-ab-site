@@ -1,0 +1,17 @@
+{
+  "name": "chemistry-ab-pH",
+  "version": "0.0.1",
+  "authors": [
+    "Alexander Selzer <aselzer3@gmail.com>"
+  ],
+  "description": "A chemistry assignment",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
