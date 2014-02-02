@@ -5819,8 +5819,8 @@ td.visible-print {
   }
 }
 .bibliography > .title {
-  font-family: "Open Sans";
   font-size: 1.6em;
+  font-family: "Raleway";
 }
 .bibliography .references li {
   list-style: none;
@@ -5855,24 +5855,48 @@ td.visible-print {
   color: #383838;
   text-align: center;
 }
-.textblock {
+.section {
   margin: 40px 0 40px 0;
   display: block;
 }
-.textblock .title {
+.section .title {
   font-size: 1.6em;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   display: block;
 }
-.textblock .text {
+.section .text {
   font-size: 1em;
   font-family: "Bitter";
   display: block;
+}
+.section .image {
+  margin-top: 20px;
+  text-align: center;
+}
+.section .image .title {
+  font-size: 1.4em;
+}
+.section .image img {
+  margin: 20px auto 0 auto;
 }
 .bibliography {
   margin-top: 60px;
 }
 .bibliography .entry {
   margin-top: 10px;
+}
+.footer {
+  min-height: 200px;
+  margin: 40px 0 20px 0;
+  font-size: 2em;
+  font-family: "Arvo", serif;
+  font-style: italic;
+  padding-top: 60px;
+  text-align: center;
+  background-color: #30ff92;
+  border: 4px solid #187f49;
+}
+.footer span {
+  display: block;
 }

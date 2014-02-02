@@ -4,7 +4,8 @@
   <head>
     <title> Chemistry pH AB </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,300italic|Open+Sans:600italic|Bitter' rel='stylesheet' type='text/css'>
+    <meta name="author" content="Alexander Selzer">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300italic|Open+Sans:600italic|Bitter|Arvo:400italic|Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/main.css" />
     <script src="/bower_components/angular/angular.min.js"></script>
     <script src="/js/controllers/bibliography.js"></script>
@@ -16,15 +17,28 @@
         <span class="title">The effect of the pH value of rivers on water pollution and ecosystems</span>
         <span class="author">Alexander Selzer</span>
 
-        <div class="textblock">
+        <div class="section">
           <span class="title">Introduction</span>
           <span class="text">
             <p>
-              pH values represent the acidity of a substance.
+              The pH scale represents the <em>acidity</em> or <em>alkalinity</em> of a substance.
+              It represents a range between both extremes, the values <em>0 </em> and <em>14</em>,
+              categorizing a substance as either acidic, when lower than <em>7</em>, alkaline,
+              when higher than <em>7</em>, or neutral, when around the middle value of <em>7</em>.
+            </p>
+            <p>
+              Values on the pH scale are logarithmic (base 10). Every step value approaching the
+              extremes is ten times more acidic than the previous.
+              Therefore, a pH value of 4 is 100 times more acidic than a value of 6.
             </p>
           </span>
+          <div class="image">
+            <span class="title">The pH Scale</span>
+            <img src="/images/phscale.gif" class="img-responsive" title="The pH scale">
+          </div>
         </div>
 
+        <!-- (actually) semantic bibliography :) -->
         <div class="bibliography" ng-controller="bibliography">
           <span class="title">Bibliography</span>
           <div class="references">
@@ -38,6 +52,10 @@
             </li>
           </div>
         </div>
+      </div>
+      <div class="footer">
+        <span> Alexander Selzer, March 2014. </span>
+        <span> Built with Bootstrap and AngularJS.</span>
       </div>
     </div>
   </body>
