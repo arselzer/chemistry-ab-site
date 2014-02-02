@@ -14,6 +14,9 @@
     "environment",
     "impact"
   ],
+  "dependencies" : {
+    "express": "3.x"
+  },
   "author": "Alexander Selzer <aselzer3@gmail.com>",
   "license": "MIT"
 }

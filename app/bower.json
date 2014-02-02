@@ -1,21 +1,13 @@
 {
-  "name": "chemistry-ab-pH",
+  "name": "chemistry-ab-site",
   "version": "0.0.1",
-  "authors": [
+  "authors" : [
     "Alexander Selzer <aselzer3@gmail.com>"
   ],
-  "description": "A chemistry assignment",
-  "main": "index.html",
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-
-  "dependencies" : {
-    "bootstrap" : "3.x"
+  "license" : "MIT",
+  "dependencies": {
+    "angular": "1.2.6",
+    "jquery": "~1.10.2",
+    "bootstrap": "~3.0.3"
   }
 }

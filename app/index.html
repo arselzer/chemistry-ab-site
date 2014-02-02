@@ -1,26 +1,43 @@
 <!doctype html>
 
-<html>
+<html ng-app="chemistryAB">
   <head>
     <title> Chemistry pH AB </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,300italic|Open+Sans:600italic|Bitter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/main.css" />
-    <script src="/js/main.js"></script>
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/js/controllers/bibliography.js"></script>
   </head>
 
   <body>
-    <div class="document">
-      <span class="title">The effect of the pH value of rivers on water pollution and ecosystems</span>
-      <span class="author">Alexander Selzer</span>
+    <div class="container">
+      <div class="document">
+        <span class="title">The effect of the pH value of rivers on water pollution and ecosystems</span>
+        <span class="author">Alexander Selzer</span>
 
-      <div class="textblock">
-        <span class="title">Introduction</span>
-        <span class="text">
-          <p>
-          pH values represent the acidity of a substance.
-          </p>
-        </span>
+        <div class="textblock">
+          <span class="title">Introduction</span>
+          <span class="text">
+            <p>
+              pH values represent the acidity of a substance.
+            </p>
+          </span>
+        </div>
+
+        <div class="bibliography" ng-controller="bibliography">
+          <span class="title">Bibliography</span>
+          <div class="references">
+            <li class="reference" ng-repeat="reference in references">
+              <span ng-hide="!reference.title" class="title">               {{reference.title}}         </span>
+              <span ng-hide="!reference.organization" class="organization"> {{reference.organization}}  </span>
+              <span ng-hide="!reference.lastModDate" class="last-mod-date"> {{reference.lastModDate}}   </span>
+              <span ng-hide="!reference.type" class="type">                 {{reference.type}}          </span>
+              <span ng-hide="!reference.accessDate" class="access-date">    {{reference.accessDate}}    </span>
+              <span ng-hide="!reference.url" class="url">                   {{reference.url}}           </span>
+            </li>
+          </div>
+        </div>
       </div>
     </div>
   </body>
