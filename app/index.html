@@ -7,6 +7,7 @@
     <meta name="author" content="Alexander Selzer">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,300italic|Open+Sans:600italic|Bitter|Arvo:400italic|Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/bibliography.css" />
     <script src="/bower_components/angular/angular.min.js"></script>
     <script src="/js/controllers/bibliography.js"></script>
   </head>
@@ -14,11 +15,11 @@
   <body>
     <div class="container">
       <div class="document">
-        <span class="title">The effect of the pH value of rivers on water pollution and ecosystems</span>
+        <span class="title">The effects of water pollution on pH values and ecosystems</span>
         <span class="author">Alexander Selzer</span>
 
         <div class="section">
-          <span class="title">Introduction</span>
+          <span class="title">The pH scale</span>
           <span class="text">
             <p>
               The pH scale represents the <em>acidity</em> or <em>alkalinity</em> of a substance.
@@ -29,7 +30,7 @@
             <p>
               Values on the pH scale are logarithmic (base 10). Every step value approaching the
               extremes is ten times more acidic than the previous.
-              Therefore, a pH value of 4 is 100 times more acidic than a value of 6.
+              A pH-value of 4 is 100 times more acidic than a value of 6.
             </p>
           </span>
           <div class="image">
@@ -43,14 +44,40 @@
           <span class="title">Bibliography</span>
           <div class="references">
             <li class="reference" ng-repeat="reference in references">
-              <span ng-hide="!reference.title" class="title">               {{reference.title}}         </span>
-              <span ng-hide="!reference.organization" class="organization"> {{reference.organization}}  </span>
-              <span ng-hide="!reference.lastModDate" class="last-mod-date"> {{reference.lastModDate}}   </span>
-              <span ng-hide="!reference.type" class="type">                 {{reference.type}}          </span>
-              <span ng-hide="!reference.accessDate" class="access-date">    {{reference.accessDate}}    </span>
-              <span ng-hide="!reference.url" class="url">                   {{reference.url}}           </span>
+              <span ng-hide="!reference.author" class="bib-author">             {{reference.author}}        </span>
+              <span ng-hide="!reference.title" class="bib-title">               {{reference.title}}         </span>
+              <span ng-hide="!reference.organization" class="bib-organization"> {{reference.organization}}  </span>
+              <span ng-hide="!reference.lastModDate" class="bib-last-mod-date"> {{reference.lastModDate}}   </span>
+              <span ng-hide="!reference.type" class="bib-type">                 {{reference.type}}          </span>
+              <span ng-hide="!reference.accessDate" class="bib-access-date">    {{reference.accessDate}}    </span>
+              <span ng-hide="!reference.url" class="bib-url">                   {{reference.url}}           </span>
             </li>
           </div>
+        </div>
+        <div class="section">
+          <span class="title">Factors influencing the pH value of water</span>
+          <span class="text">
+            <p>
+              While strong changes in pH are often human-caused, the acidity or alkalinity of
+              environments can vary naturally.
+            </p>
+            <h3>Natural Factors</h3>
+            <p>
+            
+            </p>
+            <h3>Human Factors</h3>
+            <p>
+            
+            </p>
+          </span>
+        </div>
+        <div class="section">
+          <span class="title">The effects of pH values on the ecosystem</span>
+          <span class="text">
+            <p>
+              
+            </p>
+          </span>
         </div>
       </div>
       <div class="footer">
