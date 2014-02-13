@@ -4,7 +4,7 @@
   "authors" : [
     "Alexander Selzer <aselzer3@gmail.com>"
   ],
-  "license" : "MIT",
+  "license" : "MIT-AT",
   "dependencies": {
     "angular": "1.2.6",
     "jquery": "~1.10.2",

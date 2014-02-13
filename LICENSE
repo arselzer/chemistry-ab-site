@@ -1,4 +1,4 @@
-The MIT License (MIT)
+The anti-turnitin MIT License (MIT-AT)
 
 Copyright (c) 2014 Alexander Selzer
 
@@ -8,6 +8,13 @@ the Software without restriction, including without limitation the rights to
 use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
 the Software, and to permit persons to whom the Software is furnished to do so,
 subject to the following conditions:
+
+The above notice regarding the distribution of the Software,
+becomes invalid if the individual or organization having retrieved a copy
+of the software, is in the business of
+maintaining or building tools for "plagiarism detection", defined as
+services, which maintain databases of documents, providing tools for
+detecting "plagiarism" in a piece of work.
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
