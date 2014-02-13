@@ -13,3 +13,13 @@ It is just so cool to type
 `citationer -s http://localhost:8264`
 and see the reference appear in the AngularJS app :)
 (Possible waste-of-time-feature: Real-time citation using websockets)
+
+## Running for testing
+
+```JavaScript
+$ npm install
+$ cd app
+$ bower install
+$ gulp dev
+# Look at localhost:8264
+```
