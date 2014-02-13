@@ -16,8 +16,10 @@ maintaining or building tools for "plagiarism detection", defined as
 services, which maintain databases of documents, providing tools for
 detecting "plagiarism" in a piece of work.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The top (line 3) copyright notice, this permission notice (line 19), and the
+plagiarism prevention exclusion paragraph (line 12) including the
+permission paragraph (line 5) shall be
+included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
