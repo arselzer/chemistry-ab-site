@@ -7,11 +7,9 @@ chemistryAB.controller("bibliography", function($scope, $http) {
 })
 
 .directive("document", function() {
-  return {
-    link: function(scope, document, attribute) {
-      Countable.live(document[0], function(count) {
-        console.log("Word count:", count);
-      });
-    }
-  }
+  return function(scope, document, attribute) {
+    Countable.live(document[0], function(count) {
+      console.log("Word count:", count);
+    });
+  };
 });

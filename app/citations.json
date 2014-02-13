@@ -55,5 +55,22 @@
     "type": "Web",
     "accessDate": "Thu Feb 13 2014",
     "url": "<http://www.state.ky.us/nrepc/water/wcpph.htm>"
+  },
+  {
+    "author": "Howard Perlman, USGS",
+    "title": "pH: Water properties, from the USGS Water-Science School",
+    "organization": null,
+    "lastModDate": null,
+    "type": "Web",
+    "accessDate": "Thu Feb 13 2014",
+    "url": "<http://ga.water.usgs.gov/edu/ph.html>"
+  },
+  {
+    "title": "Effects of Acid Rain - Surface Waters and Aquatic Animals | Acid Rain | Clean Air Markets | US EPA",
+    "organization": null,
+    "lastModDate": null,
+    "type": "Web",
+    "accessDate": "Thu Feb 13 2014",
+    "url": "<http://www.epa.gov/acidrain/effects/surface_water.html>"
   }
 ]
