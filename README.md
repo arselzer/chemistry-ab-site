@@ -26,4 +26,4 @@ $ gulp dev
 
 ## The Site
 
-![Auto-Generated Image](https://github.com/AlexanderSelzer/chemistry-ab-site/tree/master/rendered/localhost:8264!-1280x800.png)
+![Auto-Generated Image](https://raw.github.com/AlexanderSelzer/chemistry-ab-site/master/rendered/localhost:8264!-1280x800.png)
