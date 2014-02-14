@@ -23,3 +23,7 @@ $ bower install
 $ gulp dev
 # Look at localhost:8264
 ```
+
+## The Site
+
+![Auto-Generated Image](https://github.com/AlexanderSelzer/chemistry-ab-site/tree/master/rendered/localhost:8264!-1280x800.png)
